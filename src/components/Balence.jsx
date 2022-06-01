@@ -8,5 +8,3 @@ export const Balence = () => {
     </>
   );
 }
-
-export default Balence;

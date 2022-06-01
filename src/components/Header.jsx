@@ -5,5 +5,3 @@ export const Header = () => {
     <h2>Expence tracker</h2>
   );
 }
-
-export default Header;
