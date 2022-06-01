@@ -1,10 +1,14 @@
 import './App.css';
 import { Header } from './components/Header';
+import {Balence} from  './components/Balence';
 
 function App() {
   return (
     <div>
       <Header />
+      <div className='container'>
+        <Balence />
+      </div>
     </div>
   );
 }
