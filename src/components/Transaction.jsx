@@ -17,7 +17,7 @@ function moneyFormatter(num) {
   );
 }
 
-export const TransactionList = ({ transaction }) => {
+export const Transaction = ({ transaction }) => {
   const { deleteTransaction } = useContext(GlobalProvider);
 
   const sign = transaction.amount < 0 ? '-' : '+';
